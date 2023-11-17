@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,84 +7,151 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="block-layout.css">
     <link rel="stylesheet" href="style.css">
-    <style>
-        article {min-height: 100px; background-color: yellowgreen; margin: 1em 0;}
-        article:nth-child(odd) {background-color: aqua;}
-
-    </style>
 </head>
 <body>
-    <main>
-        <section class="row">
-            <div class="container"><h2>desktop 4 colonnes</h2></div>
-            <div class="container">
-                <article class="col-xxl-3 col-xl-4 col-lg-6 col-md-6"></article>
-                <article class="col-xxl-3 col-xl-4 col-lg-6 col-md-6"></article>
-                <article class="col-xxl-3 col-xl-4 col-lg-6 col-md-6"></article>
-                <article class="col-xxl-3 col-xl-4 col-lg-6 col-md-6"></article>
-                <article class="col-xxl-3 col-xl-4 col-lg-6 col-md-6"></article>
-                <article class="col-xxl-3 col-xl-4 col-lg-6 col-md-6"></article>
-                <article class="col-xxl-3 col-xl-4 col-lg-6 col-md-6"></article>
-                <article class="col-xxl-3 col-xl-4 col-lg-6 col-md-6"></article>
-                <article class="col-xxl-3 col-xl-4 col-lg-6 col-md-6"></article>
+    <header class=" container header-container">
+        <div class=" row row-header-bande">
+            <span class="row-header-bande-contact"> +33 (0)3 20 18 01 01</span>
+        </div>
+        <div class="row row-header-content">
+            <div class="logo"> 
+                <img class="logo-top" src="images/logo-mds-identification.png" alt="logo mds">
             </div>
+            <h1>
+                Le spécialiste des <strong>solutions d’identification</strong>, de collecte de données et d’étiquetage.</h1>
+            <hr class="hr-header">
+            <nav class="nav-top">
+                <ul>    
+                    <li><a href="#">SOCIETE</a></li>
+                    <li><a href="#">PRODUITS </a></li>
+                    <li><a href="#">SERVICES </a></li>
+                    <li><a href="#"> SOLUTIONS </a></li>
+                    <span class="nav-top-right"> 
+                    <li><input type="search" placeholder="Rechercher"></li> 
+                    <li><a href="#"> ACTUS </a></li>
+                    <li><a href="#">CONTACT </a></li>
+                    </span>
+                </ul>
+            
+            </nav>
+        </div>
+        <div class=""> <img class="hr-header-image"  src="images/header-sep.png" alt="header sep"> </div>
+       <div class="row row-header-wrapper"></div>
+        
+     
+    </header>
+    <main class="main-wrapper-center">
+        
+        <section class="container"> 
+            <div class="row">
+                <div class="row-content row-left col-xl-6">
+                    <h2> MDS, expert en identification code barre depuis plus de vingt ans </h2>
+                    <div class="flexnone">
+                        <article class=""> 
+                            <img class="max100" src="images/photo-locaux-mds-identification-1.jpeg" alt="image article1">
+                            <p>Depuis 1997, nos équipes techniques et commerciales ont acquis une grande expérience dans l’intégration et le développement de solutions pour les secteurs de la logistique, de la production et du commerce. </p>
+                            <p> Les années d’écoute, de partenariat et de proximité avec nos clients nous ont permis de développer une offre complète de services nous permettant ainsi de pouvoir intervenir sur la globalité des projets. Nos équipes maîtrisent l’ensemble des prestations d’études de site, de gestion de projets, de développement spécifiques, d’installation, de formation et de maintenance.</p>
+                            <a class="std-link leftbottom" href="#" target="_self">En savoir plus</a>
+                        </article>
+                    </div>
+                </div>
+                <div class="row-content row-right col-xl-6">
+                    <h2> Identification : toute l’actualité...  </h2>
+                    <div class="flexrow">
+                        <article class="col-xl-6">
+                            <img class="max100" src="images/xi4-zebra.jpeg" alt="article2">
+                            <h3>Fin du support Xi4</h3> 
+                            <p>
+                                Zebra a annoncé la fin du support des imprimantes 110Xi4 et 170Xi4 : plus aucune pièce détachée n'est produite. Ces deux modèles sont désormais remplacés par les imprimantes industrielles ZT610 et ZT620.                  
+                            </p>
+                            <a class="std-link leftbottom" href="#" target="_self">En savoir plus</a>
+                        </article>
+            
+                        <article class="col-xl-6">
+                            <img class="max100" src="images/TC73-TC78-presentation.png" alt="article3">
+                            <h3>Nouveaux TC73 et TC78 de Zebra</h3>
+                            <p>
+                            Les TC73 et TC78 de Zebra : une solution premium pour des workflows plus efficaces. Ils combinent les toutes dernières technologies : processeur, protocoles de communication récents... Profitez de leurs capacités pour accroître vos performances.
+                            </p>
+                            <a class="std-link leftbottom" href="#" target="_self">En savoir plus</a>
+                        </article>
+                    </div>
+                </div>
+
+            </div>
+            <div class="separateur-section"><img src="images/separateur-center-small.jpg" alt="separateur small"></div>
+
         </section>
-        <section class="row">
-            <div class="container"><h2>desktop 2 colonnes</h2></div>
-            <div class="container">
-                <article class="col-sm-6"></article>
-                <article class="col-sm-6"></article>
-                <article class="col-sm-6"></article>
-                <article class="col-sm-6"></article>
-                <article class="col-sm-6"></article>
-                <article class="col-sm-6"></article>
-                <article class="col-sm-6"></article>
-                <article class="col-sm-6"></article>
-                <article class="col-sm-6"></article>
-                <article class="col-sm-6"></article>
-            </div>
-        </section> 
-        <section class="row">
-            <div class="container"><h2>desktop 1 ligne </h2></div>
-            <div class="container">
-                <article class="col-xl-3 col-md-4"></article>
-                <article class="col-xl-6 col-md-4"></article>
-                <article class="col-xl-3 col-md-4"></article>
-            </div>
-        </section>      
-        <section class="row">
-            <div class="container"><h2>desktop 3 colonnes</h2></div>
-            <div class="container">
-                <article></article>
-                <article></article>
-                <article></article>
-                <article></article>
-                <article></article>
-                <article></article>
-                <article></article>
-                <article></article>
-                <article></article>
-            </div>
+       <section>
+        <div class="row">
+            <h2>Une question, un projet... ? </h2>
+        </div>
+       </section>
+        <section class="container">
+            
+                <div class=" row row-projet">
+                    <div class="row-content-left col-xl-3 ">
+                        <div class="row-content-left-top"> 
+                            <h3>COMMENT CHOISIR ? </h3>
+                            <ul>
+                                <li>Résolution 300 dpi ?</li>
+                                <li>Filiaire sans fil ?</li>
+                                <li>Direct thermique ?</li>
+                                <li>Transfert thermique ?</li>
+                            </ul>
+                        </div>
+                        <div class="row-content-left-bottom">
+                            <img class="max100"  src="images/question-projet-left-1.jpeg" alt="image left">
+                        </div>
+                    </div>
+                    <div class="row-content-middle col-xl-6">
+                        <img class="max100" src="images/question-projet-centre-1.jpeg" alt="image middle">
+                    </div>
+                    <div class="row-content-right col-xl-3 ">
+                        <div class="row-content-right-top">
+                            <img class="max100" src="images/question-projet-right-1.jpeg" alt="image right">
+                        </div>
+                        <div class="row-content-right-bottom">
+                            <p>Une équipe de commerciaux et de techniciens est à votre disposition : Du lundi au vendredi de 9h00 à 12h30 et de 14h00 à 17h30.</p>
+                            <a href="#" target="_self"> CONTACTEZ-NOUS</a>
+                        </div>
+                    </div>
+                </div>
+
         </section>    
-        <section class="row">
-            <div class="container"><h2>Test mds </h2></div>
-            <div class="container">
-                <article class="col-xxl-6"> </article>
-                <article class="col-xxl-6"> 
-                    <div class="col-xxl-6">art 1</div>
-                    <div class="col-xxl-6">art 2</div>
-                </article>
-            </div>
-        </section>   
-        <section class="row">
-            <div class="container"><h2>Test mds </h2></div>
-            <div class="container">
-                <article class="col-xxl-6 col-lg-6 col-sm-12">image </article>
-                <article class="col-xxl-3 col-lg-3 col-sm-6"> art 1</article>
-                <article class="col-xxl-3 col-lg-3 col-sm-6"> art 2</article>
-            </div>
-        </section>            
+        <div class="separateur-section"><img src="images/separateur-center-small.jpg" alt="separateur small"></div>
     </main>
-    
+    <section class="container">
+            
+        <div class=" row row-projet">
+            <div class="row-content-left col-xl-3 ">
+                <div class="row-content-left-top"> 
+                    <h3>COMMENT CHOISIR ? </h3>
+                    <ul>
+                        <li>Résolution 300 dpi ?</li>
+                        <li>Filiaire sans fil ?</li>
+                        <li>Direct thermique ?</li>
+                        <li>Transfert thermique ?</li>
+                    </ul>
+                </div>
+                <div class="row-content-left-bottom">
+                    <img class="max100"  src="images/question-projet-left-1.jpeg" alt="image left">
+                </div>
+            </div>
+            <div class="row-content-middle col-xl-6">
+                <img class="max100" src="images/question-projet-centre-1.jpeg" alt="image middle">
+            </div>
+            <div class="row-content-right col-xl-3 ">
+                <div class="row-content-right-top">
+                    <img class="max100" src="images/question-projet-right-1.jpeg" alt="image right">
+                </div>
+                <div class="row-content-right-bottom">
+                    <p>Une équipe de commerciaux et de techniciens est à votre disposition : Du lundi au vendredi de 9h00 à 12h30 et de 14h00 à 17h30.</p>
+                    <a href="#" target="_self"> CONTACTEZ-NOUS</a>
+                </div>
+            </div>
+        </div>
+
+</section>    
 </body>
 </html>

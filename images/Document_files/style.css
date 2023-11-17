@@ -2,7 +2,7 @@
 body { 
     font-family:Arial, Helvetica, sans-serif;
 }
-h1, h2, h3 {
+h1, h2, h3, p {
     color: #00427a;
     line-height: 1.2em;
     margin-bottom: 0.8em;
@@ -195,14 +195,17 @@ a.std-link::after {
 
 .separateur-section { 
     text-align: center;
-    margin: 10px 0
 }
 
 /* Projet */
 
 .row-projet {
-  display: flex;
-  flex-direction: row;
+    display:flex ;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+    max-height: 400px;
+    
 }
 
 .row-content-left { 
@@ -260,32 +263,11 @@ min-height: 400px;
 .row-content-right { 
     display: flex;
     flex-direction: column;
-    border: 1px solid #8ed1fc;
+    border: 1px solid #00427a;
 
 }
 
 .row-content-right-bottom { 
     text-align: center;
-    
-    color: #00427a;
-    
-}
-
-.row-content-right-bottom p { 
-    color: #00427a;
-    text-align: justify;
-    padding: 20px 10px;
-
-}
-
-.row-content-right-bottom a{
-    color: white;
-    background-color: #fcb900;
-    padding: 10px 20px    ;
-    text-decoration: none;
-}
-
-.row-content-right-bottom a::after { 
-    content: '>';
-    margin-left: 5px;
+    padding-top: 10px;
 }
